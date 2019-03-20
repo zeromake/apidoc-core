@@ -5,7 +5,10 @@
  */
 
 // node modules
-var should = require('should');
+// var should = require('should');
+var mocha = require('mocha')
+var describe = mocha.describe
+var it = mocha.it
 
 // lib modules
 var parser = require('../lib/parsers/api_description');
