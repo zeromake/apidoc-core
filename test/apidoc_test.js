@@ -12,11 +12,6 @@ var should   = require('should');
 var Markdown = require('markdown-it');
 
 var versions = require('apidoc-example').versions;
-var mocha = require('mocha')
-var describe = mocha.describe
-var it = mocha.it
-var after = mocha.after
-var before = mocha.before
 
 // lib modules
 var apidoc = require('../lib/index');
