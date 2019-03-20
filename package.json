@@ -5,17 +5,17 @@
   "author": "Peter Rottmann <rottmann@inveris.de>",
   "license": "MIT",
   "main": "./lib/index.js",
-  "homepage": "https://github.com/apidoc/apidoc-core",
+  "homepage": "https://github.com/zeromake/apidoc-core",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apidoc/apidoc-core.git"
+    "url": "https://github.com/zeromake/apidoc-core.git"
   },
   "bugs": {
-    "url": "https://github.com/apidoc/apidoc-core/issues"
+    "url": "https://github.com/zeromake/apidoc-core/issues"
   },
   "scripts": {
-    "test": "npm run jshint && mocha test/**/*_test.js",
-    "jshint": "eslint lib/ test/",
+    "test": "npm run eslint && mocha test/**/*_test.js",
+    "eslint": "eslint lib/ test/",
     "check-updates": "npm-check-updates"
   },
   "keywords": [
@@ -44,24 +44,5 @@
     "mocha": "^6.0.2",
     "npm-check-updates": "^3.1.0",
     "should": "^13.2.3"
-  },
-  "jshintConfig": {
-    "camelcase": true,
-    "curly": false,
-    "eqeqeq": true,
-    "forin": true,
-    "latedef": false,
-    "newcap": true,
-    "undef": true,
-    "unused": true,
-    "trailing": true,
-    "node": true,
-    "browser": true,
-    "predef": [
-      "it",
-      "describe",
-      "before",
-      "after"
-    ]
   }
 }
