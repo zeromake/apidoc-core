@@ -14,8 +14,8 @@
     "url": "https://github.com/zeromake/apidoc-core/issues"
   },
   "scripts": {
-    "test": "npm run eslint && mocha test/**/*_test.js",
-    "eslint": "eslint lib/ test/",
+    "test": "npm run eslint && jest",
+    "eslint": "eslint lib/",
     "check-updates": "npm-check-updates"
   },
   "keywords": [
@@ -42,8 +42,6 @@
     "eslint": "^5.15.3",
     "jest": "^24.5.0",
     "markdown-it": "^8.4.2",
-    "mocha": "^6.0.2",
-    "npm-check-updates": "^3.1.0",
-    "should": "^13.2.3"
+    "npm-check-updates": "^3.1.0"
   }
 }
