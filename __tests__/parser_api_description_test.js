@@ -7,7 +7,7 @@
 // node modules
 
 // lib modules
-var parser = require('../parsers/api_description');
+var parser = require('../lib/parsers/api_description');
 
 describe('Parser: apiDescription', () => {
 

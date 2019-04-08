@@ -14,8 +14,8 @@
     "url": "https://github.com/zeromake/apidoc-core/issues"
   },
   "scripts": {
-    "test": "npm run eslint && jest",
-    "eslint": "eslint lib/",
+    "test": "npm run eslint && jest --coverage",
+    "eslint": "eslint lib/ __tests__/",
     "check-updates": "npm-check-updates"
   },
   "keywords": [
@@ -35,13 +35,13 @@
     "iconv-lite": "^0.4.24",
     "klaw-sync": "^6.0.0",
     "lodash": "^4.17.11",
-    "semver": "^5.6.0"
+    "semver": "^6.0.0"
   },
   "devDependencies": {
     "apidoc-example": "*",
-    "eslint": "^5.15.3",
-    "jest": "^24.5.0",
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1",
     "markdown-it": "^8.4.2",
-    "npm-check-updates": "^3.1.1"
+    "npm-check-updates": "^3.1.4"
   }
 }

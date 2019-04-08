@@ -7,7 +7,7 @@
 // node modules
 
 // lib modules
-var unindent = require('../utils/unindent');
+var unindent = require('../lib/utils/unindent');
 
 describe('Util: unindent', () => {
 

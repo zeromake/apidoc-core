@@ -13,7 +13,7 @@ var Markdown = require('markdown-it');
 var versions = require('apidoc-example').versions;
 
 // lib modules
-var apidoc = require('../index');
+var apidoc = require('../lib/index');
 
 describe('apiDoc full parse', () => {
 
