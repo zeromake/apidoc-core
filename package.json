@@ -1,6 +1,6 @@
 {
   "name": "@zeromake/apidoc-core",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Core parser library to generate apidoc result following the apidoc-spec",
   "author": "zeromake <a390720046@gmail.com>",
   "license": "MIT",
