@@ -27,7 +27,7 @@
     "restful"
   ],
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 6.0.0"
   },
   "dependencies": {
     "fs-extra": "^7.0.1",
@@ -42,6 +42,6 @@
     "eslint": "^5.16.0",
     "jest": "^24.7.1",
     "markdown-it": "^8.4.2",
-    "npm-check-updates": "^3.1.4"
+    "npm-check-updates": "^3.1.7"
   }
 }
